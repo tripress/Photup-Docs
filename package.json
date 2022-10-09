@@ -1,0 +1,24 @@
+{
+  "name": "skomobi-docs",
+  "version": "0.1.0",
+  "description": "docs by skomobi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiokr/skomobi-docs.git"
+  },
+  "author": "aiokr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aiokr/skomobi-docs/issues"
+  },
+  "homepage": "https://github.com/aiokr/skomobi-docs#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
