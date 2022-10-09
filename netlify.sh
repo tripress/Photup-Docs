@@ -1,1 +1,1 @@
-yarn docs:build
+yarn vuepress build
