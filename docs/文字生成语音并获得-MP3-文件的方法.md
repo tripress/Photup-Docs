@@ -1,8 +1,5 @@
 ---
 title: 文字生成语音并获得 MP3 文件的方法
-author: aiokr
-date: 2022-09-23 13:25:49
-heroImage: 'https://imgur.lzmun.com/picgo/after2022/文字转语音 头图-2022-10-09.png_itp'
 ---
 
 # 文字生成语音并获得 MP3 文件的方法
