@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Tripper Docs","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1665281792000,"contributors":[{"name":"aiokr","email":"hiaiokr@gmail.com","commits":1}]},"filePathRelative":"README.md"}');export{a as data};

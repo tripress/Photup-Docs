@@ -2,7 +2,10 @@
 home: true
 actions:
   - text: 浏览
-    link: /docs/
+    link: /notes/
+    type: secondary
+  - text: Theme Type
+    link: /type/
     type: secondary
 features:
   - title: P.A.R.A.
