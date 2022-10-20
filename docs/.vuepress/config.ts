@@ -15,7 +15,7 @@ export default defineUserConfig(
     description:
       "Take Photo Think Seriously",
     //入口
-    base: "/",
+    base: "/docs/",
     //头部信息
     head: [
       [
@@ -45,6 +45,11 @@ export default defineUserConfig(
       defaultTheme(
         {
           repo: "aiokr/Tripper-Docs",
+          docsRepo: 'https://github.com/aiokr/tripper-docs/',
+          docsBranch: 'master',
+          docsDir: '/docs/',
+          editLink: true,
+          editLinkPattern: ':repo/edit/:branch/:path',
           lastUpdated: true,
           locales: {
             '/': {

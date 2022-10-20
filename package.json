@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aiokr/skomobi-docs.git"
+    "url": "https://github.com/aiokr/tripper-docs"
   },
   "author": "aiokr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aiokr/skomobi-docs/issues"
+    "url": "https://github.com/aiokr/tripper-docs/issues"
   },
-  "homepage": "https://github.com/aiokr/skomobi-docs#readme",
+  "homepage": "https://github.com/aiokr/tripper-docs/readme",
   "devDependencies": {
     "@vuepress/plugin-external-link-icon": "^2.0.0-beta.51",
     "@vuepress/plugin-medium-zoom": "^2.0.0-beta.51",
