@@ -15,7 +15,7 @@ export default defineUserConfig(
     description:
       "Take Photo Think Seriously",
     //入口
-    base: "/docs/",
+    base: "/",
     //头部信息
     head: [
       [
@@ -66,8 +66,8 @@ export default defineUserConfig(
               {
                 text: '文档',
                 children: [
-                  '/docs/解决空格键预览打不开的方法.md',
-                  '/docs/文字生成语音并获得-MP3-文件的方法.md'
+                  '/notes/解决空格键预览打不开的方法.md',
+                  '/notes/文字生成语音并获得-MP3-文件的方法.md'
                 ],
               },
             ],
