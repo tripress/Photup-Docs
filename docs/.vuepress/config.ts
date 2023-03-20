@@ -3,6 +3,7 @@ import { externalLinkIconPlugin } from "@vuepress/plugin-external-link-icon";
 import { defaultTheme } from "@vuepress/theme-default";
 import { mediumZoomPlugin } from "@vuepress/plugin-medium-zoom";
 import { blogPlugin } from "vuepress-plugin-blog2";
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig(
   {
@@ -81,6 +82,14 @@ export default defineUserConfig(
                 ],
               },
             ],
+            '/photup/': [
+              {
+                children: [
+                  '/photup/index.md',
+                  '/photup/灯架的区分.md',
+                ],
+              }
+            ]
           },
           sidebarDepth: 3,
         }
@@ -92,6 +101,9 @@ export default defineUserConfig(
             // 配置项
           }
         ),
+        searchPlugin({
+          // 配置项
+        }),
         externalLinkIconPlugin(
           {
             // 配置项
